@@ -1,0 +1,8 @@
+課題
+http://192.168.0.245/kadai_mon
+
+提出先
+http://192.168.0.245/kadaiServer/s02
+
+このページへのアクセス
+http://localhost/kadai/index.php
