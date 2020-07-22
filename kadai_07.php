@@ -13,9 +13,9 @@
     <form action="kadai_07_output.php" method="post">
       <div class="input-section">
         <p>・お得な配送オプション</p>
-        <p><input type="radio" name="option" value="0" checked requried>通常配送 無料</p>
-        <p><input type="radio" name="option" value="1">お急ぎ便 +200円</p>
-        <p><input type="radio" name="option" value="2">当日お急ぎ便 +500円</p>
+        <p><label><input type="radio" name="option" value="0" checked requried>通常配送 無料</label></p>
+        <p><label><input type="radio" name="option" value="1">お急ぎ便 +200円</label></p>
+        <p><label><input type="radio" name="option" value="2">当日お急ぎ便 +500円</label></p>
       </div>
       <div class="input-section">
         <p>・レビューを書いたら50円引き</p>
