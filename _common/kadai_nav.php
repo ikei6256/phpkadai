@@ -1,5 +1,5 @@
 <?php
-$KADAI_NUM = 6; // 課題数
+$KADAI_NUM = 7; // 課題数
 ?>
 <nav id="kadai_nav" class="clearfix">
   <ul>

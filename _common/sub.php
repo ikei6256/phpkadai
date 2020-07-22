@@ -1,10 +1,9 @@
 <div id="sub">
   <div id="twitter">
-    <a class="twitter-timeline" data-height="400" data-width="300" data-dnt="true"
-      href="https://twitter.com/gushi_noukai?ref_src=twsrc%5Etfw">Tweets by gushi_noukai</a>
+    <a class="twitter-timeline" data-height="400" data-width="300" data-dnt="true" href="https://twitter.com/gushi_noukai?ref_src=twsrc%5Etfw">Tweets by gushi_noukai</a>
     <script async src="https://platform.twitter.com/widgets.js"></script>
   </div>
-  <div id="okashi">
+  <!-- <div id="okashi">
     <div id="toriko"><a href="https://sysbird.jp/toriko" target="blank_">お菓子の虜</a> - 新着</div>
     <div id="loading"><img id="loading" src="images/loading.gif"></div>
     <div id="okashiName"></div>
@@ -28,5 +27,5 @@
       $('#okashiComment').html(data.item.comment);
     });
   });
-  </script>
+  </script> -->
 </div>
