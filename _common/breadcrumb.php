@@ -15,7 +15,9 @@
     "kadai_06.php" => "課題6",
     "kadai_06_output.php" => "課題6",
     "kadai_07.php" => "課題7",
-    "kadai_07_output.php" => "課題7"
+    "kadai_07_output.php" => "課題7",
+    "kadai_08.php" => "課題8",
+    "kadai_08_output.php" => "課題8"
   );
   $pathNow =  $_SERVER['PHP_SELF']; // 現在ページ(移動後)のパス
   $pathNowArray = explode("/", $pathNow); // 現在ページのパスの文字列を分割

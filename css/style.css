@@ -60,6 +60,14 @@ form{
   margin: 10px 0;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.submit{
+  margin-top: 20px;
+}
+
 /******* header *******/
 header {
   padding: 2px 5% 2px;
