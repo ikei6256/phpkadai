@@ -9,12 +9,12 @@
     ページ概要
   </div>
 </section>
-<section>
+<!-- <section>
   <div class="contentTitle">
     見出し
   </div>
   <div class="contentBody">
     内容
   </div>
-</section>
+</section> -->
 <?php require '_common/footer.php';?>

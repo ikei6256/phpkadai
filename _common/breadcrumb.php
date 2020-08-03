@@ -1,6 +1,6 @@
 <div id="breadcrumb">
   <?php
-  $breadcrumbs = array(
+  $breadcrumbs = [
     "index.php" => "ホーム",
     "kadai_01.php" => "課題1",
     "kadai_01_output.php" => "課題1",
@@ -21,8 +21,9 @@
     "kadai_09.php" => "課題9",
     "kadai_09_output.php" => "課題9",
     "kadai_10.php" => "課題10",
-    "kadai_10_output.php" => "課題10"
-  );
+    "kadai_10_output.php" => "課題10",
+    "kadai_11.php" => "課題11",
+  ];
   $pathNow =  $_SERVER['PHP_SELF']; // 現在ページ(移動後)のパス
   $pathNowArray = explode("/", $pathNow); // 現在ページのパスの文字列を分割
   $pathNowLast = $pathNowArray[array_key_last($pathNowArray)]; // 現在ページのファイル名

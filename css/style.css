@@ -7,6 +7,7 @@
 //*********** index ************
 //
 // > 初期設定
+// > bg-colors
 // > #all
 // > header
 // > footer
@@ -17,7 +18,7 @@
 // > #main
 // > #sub
 // > 課題2
-// > 課題7
+// > 課題11 .pixelArt
 //
 ********************************
 */
@@ -66,6 +67,18 @@ form{
 
 .submit{
   margin-top: 20px;
+}
+
+.border-none{
+  border: none !important;
+}
+
+/***** bg-colors *****/
+.bg-gray{
+  background-color: gray;
+}
+.bg-green{
+  background-color: #00ff00;
 }
 
 /******* header *******/
@@ -357,4 +370,11 @@ section:not(:last-child) {
   padding: 0.5em 5em;
   margin: 20px 0;
   border-radius: 8px;
+}
+
+/***** 課題11 ******/
+.pixelArt td{
+ width: 20px;
+ height: 20px;
+ border: 1px solid black;
 }
