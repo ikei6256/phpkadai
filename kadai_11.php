@@ -129,7 +129,7 @@
       foreach($pixel as $row){
         echo '<tr>';
 
-        foreach($tr as $dot){
+        foreach($row as $dot){
           switch ($dot) {
             case 0:
               echo '<td class="bg-gray border-none"></td>';
