@@ -126,7 +126,7 @@
     <h3 class="roundedSquare">foreach文で作成</h3>
     <table class="pixelArt">
       <?php
-      foreach($pixel as $tr){
+      foreach($pixel as $row){
         echo '<tr>';
 
         foreach($tr as $dot){
