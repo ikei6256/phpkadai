@@ -31,6 +31,48 @@
       [0, 1, 1, 1, 1, 1, 0],
       [0, 0, 0, 0, 0, 0, 0]
     ];
+    $pixel_p = [
+      [0,0,0,0,0,0,0],
+      [0,2,2,2,2,2,0],
+      [0,2,2,0,2,2,0],
+      [0,2,2,0,2,2,0],
+      [0,2,2,2,2,0,0],
+      [0,2,2,0,0,0,0],
+      [0,0,0,0,0,0,0]
+    ];
+    $pixel_h = [
+      [0,0,0,0,0,0,0],
+      [0,3,3,0,3,3,0],
+      [0,3,3,0,3,3,0],
+      [0,3,3,3,3,3,0],
+      [0,3,3,0,3,3,0],
+      [0,3,3,0,3,3,0],
+      [0,0,0,0,0,0,0]
+    ];
+    function echoPixel($pixel){
+      echo '<table class="pixelArt float-left">';
+      foreach($pixel as $row){
+        echo '<tr>';
+        foreach($row as $dot){
+          switch ($dot) {
+            case 0:
+              echo '<td class="bg-gray border-none"></td>';
+              break;
+            case 1:
+              echo '<td class="bg-green border-none"></td>';
+              break;
+            case 2:
+              echo '<td class="bg-orange border-none"></td>';
+              break;
+            case 3:
+              echo '<td class="bg-blue border-none"></td>';
+              break;
+          }
+        }
+        echo '</tr>';
+      }
+      echo '</table>';
+    }
     ?>
 
     <?php
@@ -145,6 +187,14 @@
       ?>
     </table>
 
+    <h3 class="roundedSquare">phpスクリプトでドット絵「php」を作成</h3>
+    <div class="clearfix">
+    <?php
+    echoPixel($pixel_p);
+    echoPixel($pixel_h);
+    echoPixel($pixel_p);
+    ?>
+    </div>
   </div>
 </section>
 <!-- <section>

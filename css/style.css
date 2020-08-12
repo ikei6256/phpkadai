@@ -73,12 +73,22 @@ form{
   border: none !important;
 }
 
+.float-left{
+  float: left;
+}
+
 /***** bg-colors *****/
 .bg-gray{
-  background-color: gray;
+  background-color: gainsboro;
 }
 .bg-green{
   background-color: #00ff00;
+}
+.bg-orange{
+  background-color: orange;
+}
+.bg-blue{
+  background-color: turquoise;
 }
 
 /******* header *******/
