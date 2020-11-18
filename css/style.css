@@ -49,8 +49,12 @@ h3 {
 }
 
 p{
-  margin-bottom: 5px;
+  margin-top: 1rem;
   line-height: 1.2em;
+}
+
+ul {
+  margin-top: 1rem;
 }
 
 form{
@@ -383,8 +387,19 @@ section:not(:last-child) {
 }
 
 /***** 課題11 ******/
-.pixelArt td{
+.pixelArt td {
  width: 20px;
  height: 20px;
  border: 1px solid black;
+}
+
+/***** 課題12 *****/
+.quiz_nav {
+  display: flex;
+  gap: 1rem;
+  /* border: 1px solid gray; */
+  background: #f4f4f4;
+  border-radius: 2px;
+  padding: 1rem;
+  box-shadow: 0px 8px 16px -2px rgba(10,10,10,0.1), 0px 0px 0px 1px rgba(10,10,10,0.02);
 }

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -9,9 +10,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
-  <!-- <script>console.log();</script> -->
   <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/okashi.js"></script>
+  <!-- <script src="js/okashi.js"></script> -->
 </head>
 
 <body>
