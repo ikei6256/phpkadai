@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php require '_common/header.php';?>
 <section>
   <div id="borderGradient">
