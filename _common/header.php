@@ -16,13 +16,13 @@
 <body>
   <header>
     <div><a href="index.php"><img src="images/logo480.png" alt="Ikei's Cafe"></a></div>
-    <nav id="headerNav">
+    <!-- <nav id="headerNav">
       <ul>
         <li><a href="#">none</a></li>
         <li><a href="#">none</a></li>
         <li><a href="#">none</a></li>
       </ul>
-    </nav>
+    </nav> -->
   </header>
   <?php require '_common/kadai_nav.php'; ?>
   <?php
@@ -34,9 +34,9 @@
     $pathNowLast = explode("?", $pathNowLast)[0];
   }
   // ホーム以外の時にパンくずリストを表示
-  if ($pathNowLast !== 'index.php') {
-    require '_common/breadcrumb.php';
-  }
+  // if ($pathNowLast !== 'index.php') {
+  //   require '_common/breadcrumb.php';
+  // }
   ?>
   <div id="contents" class="clearfix">
     <div id="main">

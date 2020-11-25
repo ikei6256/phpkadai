@@ -1,7 +1,7 @@
 <?php
 $links = [
   "kadai_12" => "クイズTOP",
-  "tango-show" => "単語時点",
+  "tango-show" => "単語辞典",
   "login-input" => "ログイン",
   "logout-input" => "ログアウト",
   "user-input" => "新規登録"
@@ -15,8 +15,8 @@ foreach ($links as $url=>$name) {
 ?>
 </ul>
 <?php
-if (isset($_SESSION['user'])) {
-  echo '<p>ようこそ、', $_SESSION['user']['name'],'さん</p>';
+if (isset($_SESSION['userinfo'])) {
+  echo '<p>ようこそ、', $_SESSION['userinfo']['username'],'さん</p>';
 } else {
   echo '<p>ようこそ、guestさん</p>';
 }
