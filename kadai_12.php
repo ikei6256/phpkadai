@@ -7,7 +7,7 @@
     </h2>
   </div>
   <div id="contentBodyFirst">
-    <p>データーベースを使ったプログラミング系英単語のクイズを作成する。</p>
+    <p>データベースを使ったプログラミング系英単語のクイズを作成する。</p>
     <?php require 'kadai_12_subnav.php';?>
   </div>
 </section>
