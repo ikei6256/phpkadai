@@ -409,3 +409,10 @@ section:not(:last-child) {
   padding: 0.5rem;
   border: 1px solid grey;
 }
+
+.mistake {
+  color: blue;
+}
+.correct {
+  color: pink;
+}
